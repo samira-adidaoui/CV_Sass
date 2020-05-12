@@ -1,0 +1,111 @@
+ 
+
+
+
+/* Partie de Gauche */
+
+/* Hard Skills & Soft Skills*/
+#left-part h2{
+    margin: 0 15px;
+}
+.skills h3 {
+    text-align: center;
+    padding: 10px 0 5px;
+    margin: 15px 0 5px;
+    color: #006d4c;
+    
+}
+
+.skills {
+    margin-bottom: 30px;
+}
+
+.skill_list {
+    grid-template-columns: 1fr 2fr;
+}
+
+.skill_list i, #html_css {
+    margin-left:64%;
+}
+.skill_list p {
+    text-transform: uppercase;
+    margin-left: 20%;
+}
+
+#html, #css{
+    margin-left:0;
+}
+
+/* Partie de droite */
+
+#right_part h3 {
+    padding: 10px;
+}
+
+.part_right_item {
+    margin: 10px auto;
+}
+
+.date {
+    font-weight: bold;
+    padding: 15px;
+    margin: 0;
+}
+
+#right_part h3 ~ p i {
+    color: #00a876;
+}
+
+.description_task {
+    margin: 0 25px;
+}
+
+.list_task1 {
+    display: grid;
+    padding: 0 30px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1.8fr 1.8fr;
+}
+
+.list_task2 {
+    display: grid;
+    padding: 0 30px;
+}
+
+/* Formation et Diplôme */
+
+.graduate {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+#oc {
+    width: 120px;
+    margin-left: 30px;
+}
+
+#cnam {
+    width: 80px;
+    margin-left: 30px;
+}
+
+#school {
+    margin-left: 30px;
+}
+
+.part_right_item1{
+    margin-left:4%;
+    width: 50%;
+}
+
+#portfolio{
+    display: flex;
+}
+
+#recommendation{
+    display: flex;
+    
+    
+}
+
